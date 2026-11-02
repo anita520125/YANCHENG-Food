@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">高雄鹽埕街區導覽圖</title>
+  <desc id="desc">標示鹽埕埔站 O2、大勇路、新樂街、五福四路、七賢三路、大仁路、大智路與愛河。示意圖不按比例繪製。</desc>
+  <defs>
+    <pattern id="paper" width="32" height="32" patternUnits="userSpaceOnUse"><rect width="32" height="32" fill="#f2eee3"/><circle cx="3" cy="4" r=".7" fill="#ded8c8" opacity=".5"/></pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#344239" flood-opacity=".14"/></filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#paper)"/>
+  <!-- river on the eastern edge -->
+  <path d="M1060-30 C1012 95 1098 178 1052 284 C1008 384 1100 473 1051 585 C1010 677 1072 724 1042 830 L1230 830 L1230-30Z" fill="#b7d6d1"/>
+  <path d="M1060-30 C1012 95 1098 178 1052 284 C1008 384 1100 473 1051 585 C1010 677 1072 724 1042 830" fill="none" stroke="#82b8b0" stroke-width="4"/>
+  <text x="1115" y="405" transform="rotate(90 1115 405)" fill="#37766e" font-family="sans-serif" font-size="25" letter-spacing="8">愛 河</text>
+  <!-- neighborhood blocks -->
+  <g fill="#e2e6d8" stroke="#d4d8ca" stroke-width="2">
+    <rect x="92" y="88" width="190" height="116" rx="17"/><rect x="328" y="88" width="174" height="116" rx="17"/><rect x="548" y="88" width="174" height="116" rx="17"/><rect x="768" y="88" width="202" height="116" rx="17"/>
+    <rect x="92" y="258" width="190" height="125" rx="17"/><rect x="548" y="258" width="174" height="125" rx="17"/><rect x="768" y="258" width="202" height="125" rx="17"/>
+    <rect x="92" y="438" width="190" height="116" rx="17"/><rect x="328" y="438" width="174" height="116" rx="17"/><rect x="548" y="438" width="174" height="116" rx="17"/><rect x="768" y="438" width="202" height="116" rx="17"/>
+    <rect x="92" y="610" width="190" height="105" rx="17"/><rect x="328" y="610" width="174" height="105" rx="17"/><rect x="548" y="610" width="174" height="105" rx="17"/><rect x="768" y="610" width="202" height="105" rx="17"/>
+  </g>
+  <!-- named roads -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M306 25V765" stroke="#fffdf7" stroke-width="43"/><path d="M306 25V765" stroke="#d7cfbd" stroke-width="2"/>
+    <path d="M524 25V765" stroke="#fffdf7" stroke-width="38"/><path d="M524 25V765" stroke="#d7cfbd" stroke-width="2"/>
+    <path d="M744 25V765" stroke="#fffdf7" stroke-width="38"/><path d="M744 25V765" stroke="#d7cfbd" stroke-width="2"/>
+    <path d="M986 25V765" stroke="#fffdf7" stroke-width="38"/><path d="M986 25V765" stroke="#d7cfbd" stroke-width="2"/>
+    <path d="M45 226H1030" stroke="#fffdf7" stroke-width="39"/><path d="M45 226H1030" stroke="#d7cfbd" stroke-width="2"/>
+    <path d="M45 405H1030" stroke="#fffdf7" stroke-width="48"/><path d="M45 405H1030" stroke="#d7cfbd" stroke-width="2"/>
+    <path d="M45 577H1030" stroke="#fffdf7" stroke-width="39"/><path d="M45 577H1030" stroke="#d7cfbd" stroke-width="2"/>
+  </g>
+  <!-- station at Dayong Rd and Xinle St -->
+  <g filter="url(#shadow)"><rect x="80" y="340" width="356" height="132" rx="18" fill="#fffdf8" stroke="#e6dece" stroke-width="2"/></g>
+  <rect x="99" y="359" width="58" height="58" rx="14" fill="#f1a23c"/><text x="128" y="397" text-anchor="middle" fill="#fff" font-family="sans-serif" font-weight="800" font-size="27">O2</text>
+  <text x="174" y="384" fill="#263d34" font-family="sans-serif" font-weight="800" font-size="25">鹽埕埔站</text>
+  <text x="174" y="416" fill="#72766b" font-family="sans-serif" font-size="16">橘線・2 號出口｜大勇路 × 新樂街</text>
+  <circle cx="306" cy="405" r="13" fill="#f1a23c" stroke="#fff" stroke-width="5"/>
+  <!-- street labels -->
+  <g font-family="sans-serif" font-weight="700" fill="#687467" font-size="19" text-anchor="middle">
+    <text x="306" y="74" transform="rotate(-90 306 74)">大勇路</text>
+    <text x="524" y="74" transform="rotate(-90 524 74)">大仁路</text>
+    <text x="744" y="74" transform="rotate(-90 744 74)">大智路</text>
+    <text x="986" y="74" transform="rotate(-90 986 74)">河西路</text>
+    <text x="850" y="218">七賢三路</text>
+    <text x="850" y="398">新樂街</text>
+    <text x="850" y="570">五福四路</text>
+  </g>
+  <!-- compass and note -->
+  <g transform="translate(72 75)"><circle r="27" fill="#fffdf8" stroke="#ded8c9"/><path d="M0-17L7 7 0 3-7 7Z" fill="#9b563f"/><text x="0" y="47" text-anchor="middle" fill="#687467" font-family="sans-serif" font-size="12" font-weight="700">北</text></g>
+  <rect x="74" y="738" width="456" height="36" rx="18" fill="#fffdf8" opacity=".92"/><text x="96" y="762" fill="#77796d" font-family="sans-serif" font-size="14">街道相對位置示意，非比例地圖；店家請點選導航。</text>
+</svg>
